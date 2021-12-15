@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+    const name = '혜인'
   return (
     <div className="App">
       <header className="App-header">
@@ -9,7 +10,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>hello react world</p>
+        <div>
+        {name ==='혜인' ? (<p>name is hyein</p>):(<p>name is ! hyein</p>)}
+        </div>
+        <p>{name} hello react world!!!</p>
         <a
           className="App-link"
           href="https://reactjs.org"
